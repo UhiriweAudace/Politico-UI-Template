@@ -1,6 +1,97 @@
-<h1>Politico</h1>
-<p>
-This is Politico. Politico is online platform that enables citizens
-to give their mandate to politicians that are running for different 
-government offices while building trust in the election process through transparency.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./UI/assets/images/politico_Icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./UI/assets/icons/css/all.min.css">
+  <script type="text/javascript" src="./UI/js/jquery.js"></script>
+  <script type="text/javascript" src="./UI/js/toogleButton.js"></script>
+  <link rel="stylesheet" href="./UI/css/index.css">
+  <title>Politico - Vote</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <span>
+        <i class="fas fa-box-open fa-xs"></i>
+      </span>
+      <label for="logo">Politico</label>
+    </div>
+    <nav class="main-nav">
+      <button class="toogle-button" data-toggle="collapse" data-target="#top-nav-links">
+        <span>
+          <i class="fa fa-bars"></i>
+        </span>
+      </button>
+      <div class="main-nav-row" id="main-nav-row">
+        <a href="./UI/pages/login.html">Admin</a>
+        <a href="./UI/pages/login.html">Login</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="item-1">
+        <h1>
+          This is Politico
+        </h1>
+        <p>
+          <ul>
+            <li>Before you continue for doing other operations.</li>
+            <li>Please fill the right form for Signup.</li>
+            <a href="#form-data">
+              <div class="form-control">
+                <button type="submit" class="primary-btn">Sign up</button>
+              </div>
+            </a>
+          </ul>
+        </p>
+      </div>
+      <div class="item-2">
+        <h2>Signup - form</h2>
+        <form action="" method="post" id="form-data">
+          <div class="form-control">
+            <div class="for-label"><label>Firstname</label></div><br />
+            <input type="text" name="firstname" id="firstname" required>
+          </div>
+          <div class="form-control">
+            <div class="for-label"><label>Lastname</label></div><br />
+            <input type="text" name="lastname" id="lastname" required>
+          </div>
+          <div class="form-control">
+            <div class="for-label"><label>OtherName</label></div><br />
+            <input type="text" name="otherName" id="otherName" required>
+          </div>
+          <div class="form-control">
+            <div class="for-label"><label>Phone Number</label></div><br />
+            <input type="number" name="phoneNumber" id="phoneNumber" required>
+          </div>
+          <div class="form-control">
+            <div class="for-label"><label class="email">E-mail</label></div><br />
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="form-control">
+            <div class="for-label"><label>Password</label></div><br />
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="form-control">
+            <div class="for-label"><label class="confirm">Confirm Password</label></div><br />
+            <input type="password" name="password2" id="password2" required>
+          </div>
+          <div class="form-control">
+            <button type="submit" class="primary-btn">Sign up</button>
+          </div>
+          <div class="form-control Already">
+            <a href="./pages/login.html">Already, have an account?</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
