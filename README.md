@@ -3,27 +3,27 @@ This is Politico. Politico is online platform that enables citizens to give thei
 
  ## Hosted UI:
 
-    * [UITemplateLink](https://uhiriweaudace.github.io/Politico-UI-Template/UI)
+* [UITemplateLink](https://uhiriweaudace.github.io/Politico-UI-Template/)
 
 ## Technologies used :
 
-* [Html](https://www.w3schools.com/html/html_intro.asp) HTML is the standard markup language for creating Web pages.
+* [Html](https://www.w3schools.com/html/html_intro.asp) is the standard markup language for creating Web pages.
 
-* [CSS](https://www.w3schools.com/css/default.asp) CSS is a language that describes the style of an HTML document.
+* [CSS](https://www.w3schools.com/css/default.asp) is a language that describes the style of an HTML document.
 
-* [Javascript](https://www.w3schools.com/js/js_intro.asp) JavaScript is a programming language that adds interactivity to your website.
+* [Javascript](https://www.w3schools.com/js/js_intro.asp)is a programming language that adds interactivity to your website.
 
 ### Required Features
 
 * Users can sign up.
-![](assets/screenshot/index.png)
+![](./UI/assets/screenshot/index.png)
 * Users can login.
-![](assets/screenshot/login.png)
+![](./UI/assets/screenshot/login.png)
 * Admin (electoral body) can create political parties.
-![](assets/screenshot/AdminDash.png)
+![](./UI/assets/screenshot/AdminDash.png)
 * Admin (electoral body) can delete a political party.
 * Admin (electoral body) can create different political offices .
-![](assets/screenshot/AdminOffices.png)
+![](./UI/assets/screenshot/AdminOffices.png)
 * Users can vote for only one politician per political office .
-![](assets/screenshot/userVote.png)
+![](./UI/assets/screenshot/userVote.png)
 * Users can see the results of election.
