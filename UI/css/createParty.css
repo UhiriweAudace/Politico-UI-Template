@@ -1,0 +1,99 @@
+.form-container {
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 75px #ccc;
+    width: 90%;
+}
+
+.row {
+    padding: 15px;
+    font-family: ubuntu, sans-serif;
+}
+
+.row label {
+    color: #435160;
+    font-family: ubuntu, sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+    margin-top: 5px;
+    border: 1px solid #435160;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 70%;
+    padding: 5px 0px 10px 0px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    color: #435160;
+    font-size: 16px;
+}
+
+input[type="date"],
+input[type="file"] {
+    width: 50%;
+    margin-top: 10px;
+    padding: 5px 0 10px 15px;
+    color: #435160;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #435160;
+}
+
+input:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+h2 {
+    color: #6D7781;
+    font-family: ubuntu,
+        sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+.create-btn {
+    padding: 10px 30px;
+    width: 30%;
+    font-weight: bold;
+    font-family: ubuntu, sans-serif;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    color: #435160;
+    border: 2px solid #435160;
+    border-radius: 200px;
+    margin-right: 15px;
+    transition: background-color 0.2s,
+        border 0.2s,
+        color 0.2s;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    padding: 10px 30px;
+    width: 30%;
+    font-weight: bold;
+    font-family: ubuntu, sans-serif;
+    text-decoration: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 200px;
+    margin-right: 15px;
+    transition: background-color 0.2s,
+        border 0.2s,
+        color 0.2s;
+    cursor: pointer;
+}

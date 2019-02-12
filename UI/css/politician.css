@@ -1,0 +1,331 @@
+@media (max-width: 575.98px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: black;
+        color: #007bff;
+        font-family: ubuntu, sans-serif;
+        font-size: 90%;
+        width: 100vw;
+        height: 60px;
+        position: fixed;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        float: left;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid #007bff;
+        margin-left: 5%;
+        height: 35px;
+        width: 110px;
+        text-align: center
+    }
+
+    .logo label {
+        padding-top: 10px;
+        padding-right: 20px;
+        color: #007bff;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: ubuntu, sans-serif;
+    }
+
+    .logo span {
+        font-size: 2em;
+        color: #007fbb;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .main-nav {
+        text-decoration: none;
+        font-size: 90%;
+        height: 100%;
+    }
+
+    .main-nav-row {
+        display: none;
+        width: 100%;
+        background-color: #000000f0;
+        padding: 50px;
+        margin: 10px;
+    }
+
+    .main-nav a:link,
+    .main-nav a:visited {
+        display: block;
+        color: #007bff;
+        margin-left: 20%;
+        font-size: ubuntu, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    .main-nav a:hover,
+    .main-nav a:active {
+        color: white;
+        font-size: 12px;
+
+    }
+
+    .main-container {
+        padding-top: 150px;
+    }
+
+    .politician-container {
+        border-radius: 10px;
+        margin-left: 10%;
+        padding-left: 40px;
+        padding-top: 15px;
+        box-shadow: 0 2px 75px #ccc;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    select {
+        width: 52%;
+        margin-top: 10px;
+        padding: 5px 0 10px 15px;
+        color: #435160;
+        outline: none;
+        background-color: transparent;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid #435160;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: black;
+        color: #007bff;
+        font-family: ubuntu, sans-serif;
+        font-size: 90%;
+        width: 100vw;
+        height: 60px;
+        position: fixed;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        float: left;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid #007bff;
+        margin-left: 5%;
+        height: 35px;
+        width: 110px;
+        text-align: center
+    }
+
+    .logo label {
+        padding-top: 10px;
+        padding-right: 20px;
+        color: #007bff;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: ubuntu, sans-serif;
+    }
+
+    .logo span {
+        font-size: 2em;
+        color: #007fbb;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .main-nav {
+        text-decoration: none;
+        font-size: 90%;
+        height: 100%;
+    }
+
+    .main-nav-row {
+        display: inline-block;
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .main-nav a:link,
+    .main-nav a:visited {
+        display: block;
+        color: #007bff;
+        font-size: ubuntu, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    .main-nav a:hover,
+    .main-nav a:active {
+        border-top: 3px solid #007bff;
+    }
+
+    .main-container {
+        padding-top: 150px;
+    }
+
+    .politician-container {
+        border-radius: 10px;
+        margin-left: 10%;
+        padding-left: 40px;
+        padding-top: 15px;
+        box-shadow: 0 2px 75px #ccc;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    select {
+        width: 52%;
+        margin-top: 10px;
+        padding: 5px 0 10px 15px;
+        color: #435160;
+        outline: none;
+        background-color: transparent;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid #435160;
+    }
+}
+
+@media (min-width:1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: black;
+        color: #007bff;
+        font-family: ubuntu, sans-serif;
+        font-size: 90%;
+        width: 100%;
+        height: 95px;
+        position: fixed;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .logo {
+        float: left;
+        margin: 2% 0;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid #007bff;
+        margin-left: 5%;
+        height: 50px;
+        width: 15vw;
+        text-align: center;
+    }
+
+    .logo label {
+        color: #007bff;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: ubuntu, sans-serif;
+    }
+
+    .main-nav {
+        float: right;
+        text-decoration: none;
+        font-size: 90%;
+        height: 100%;
+    }
+
+    .main-nav-row {
+        display: inline-block;
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .main-nav a:link,
+    .main-nav a:visited {
+        color: #007bff;
+        font-size: ubuntu,
+            sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    .main-nav a:hover,
+    .main-nav a:active {
+        border-top: 3px solid #007bff;
+    }
+
+    .main-container {
+        padding-top: 150px;
+    }
+
+    .politician-container {
+        border-radius: 10px;
+        margin-left: 10%;
+        padding-left: 40px;
+        padding-top: 15px;
+        box-shadow: 0 2px 75px #ccc;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    select {
+        width: 52%;
+        margin-top: 10px;
+        padding: 5px 0 10px 15px;
+        color: #435160;
+        outline: none;
+        background-color: transparent;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid #435160;
+    }
+}
