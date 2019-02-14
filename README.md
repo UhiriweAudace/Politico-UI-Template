@@ -3,7 +3,7 @@ This is Politico. Politico is online platform that enables citizens to give thei
 
  ## Hosted UI:
 
-* [UITemplateLink](https://uhiriweaudace.github.io/Politico-UI-Template/)
+* [UI Template Link](https://uhiriweaudace.github.io/Politico-UI-Template/)
 
 ## Technologies used :
 
