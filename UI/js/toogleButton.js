@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
     // Close dialog box
     $("#close").click(function () {
-        $(this).closest(".dialog-box").hide();
+        $(this).closest("#main-nav-row").hide();
     });
     // Get started
     $(".quarter-button").click(function () {

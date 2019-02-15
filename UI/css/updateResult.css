@@ -21,6 +21,15 @@
     float: right;
   }
 
+  .right-side-bottom {
+    margin-top: -45vh;
+    margin-left: -30px;
+  }
+
+  .right-side-bottom-2 {
+    margin-top: -10vh;
+  }
+
   .right-side-bottom-1 {
     padding-top: 150px;
   }
@@ -35,7 +44,7 @@
 
   .item-1 {
     background-color: white;
-
+    margin-top: -55px;
   }
 
   .item-1-top {
@@ -112,6 +121,15 @@
     float: right;
   }
 
+  .right-side-bottom {
+    margin-top: -45vh;
+    margin-left: -30px;
+  }
+
+  .right-side-bottom-2 {
+    margin-top: -10vh;
+  }
+
   .right-side-bottom-1 {
     padding-top: 150px;
   }
@@ -126,12 +144,13 @@
 
   .item-1 {
     background-color: white;
+    margin-top: -55px;
   }
 
   .item-1-top {
     margin: 40px 20px 0 20px;
     padding: 20px;
-    width: 40vw;
+    width: 70vw;
     border-radius: 10px;
     height: 200px;
     background-color: white;
@@ -175,14 +194,15 @@
   .item-2 {
     background-color: yellow;
     height: 100vh;
+
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
   .content-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     padding-top: 95px;
 
   }
@@ -194,12 +214,20 @@
   }
 
   .toogle-button {
-    display: none;
     font-size: 2em;
     color: #007fbb;
     margin-right: 25px;
     margin-top: 10px;
     float: right;
+  }
+
+  .right-side-bottom {
+    margin-top: -45vh;
+    margin-left: -30px;
+  }
+
+  .right-side-bottom-2 {
+    margin-top: -10vh;
   }
 
   .right-side-bottom-1 {
@@ -216,12 +244,13 @@
 
   .item-1 {
     background-color: white;
+    margin-top: -55px;
   }
 
   .item-1-top {
     margin: 40px 20px 0 20px;
     padding: 20px;
-    width: 25vw;
+    width: 70vw;
     border-radius: 10px;
     height: 200px;
     background-color: white;
@@ -247,7 +276,7 @@
     color: #6D7781;
     border-bottom: 1px solid #6D7781;
     font-family: ubuntu, sans-serif;
-    width: 180px;
+    width: 250px;
     line-height: 2.5;
     margin-bottom: 20px;
   }
@@ -269,10 +298,10 @@
   }
 }
 
-@media(min-width:992px) and (max-width:1119.98px) {
+@media(min-width:992px) and (max-width:1199.98px) {
   .content-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr;
     padding-top: 95px;
 
@@ -364,9 +393,9 @@
 @media (min-width:1200px) {
   .content-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr;
-    padding-top: 95px;
+    padding-top: 85px;
   }
 
   button {
@@ -384,6 +413,11 @@
     float: right;
   }
 
+  .right-side-bottom {
+    margin-top: -20vh;
+    margin-left: -30px;
+  }
+
   .right-side-bottom-1 {
     padding-top: 150px;
   }
@@ -397,7 +431,7 @@
 
   .item-1 {
     background-color: white;
-    width: 20vw;
+    width: 15vw;
   }
 
   .item-1-top {

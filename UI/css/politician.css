@@ -9,7 +9,7 @@
     color: #007bff;
     font-family: ubuntu, sans-serif;
     font-size: 90%;
-    width: 100vw;
+    width:100%;
     height: 60px;
     position: fixed;
   }
@@ -135,7 +135,7 @@
     color: #007bff;
     font-family: ubuntu, sans-serif;
     font-size: 90%;
-    width: 100vw;
+    width: 100%;
     height: 60px;
     position: fixed;
   }
@@ -176,7 +176,6 @@
   .logo span {
     font-size: 2em;
     color: #007fbb;
-    margin-top: -10px;
     margin-left: 10px;
     margin-right: 5px;
   }

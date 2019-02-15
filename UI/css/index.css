@@ -295,15 +295,14 @@
   }
 
   .logo span {
-    font-size: 3em;
+    font-size: 2em;
     color: #007fbb;
-    margin-top: -5px;
     margin-left: 10px;
     margin-right: 5px;
   }
 
   .logo label {
-    padding-top: 15px;
+    padding-top: 10px;
     padding-right: 20px;
     color: #007bff;
     cursor: pointer;
